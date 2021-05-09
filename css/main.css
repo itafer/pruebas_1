@@ -1,1 +1,79 @@
-/* Inserta tu codigo aqui */
+@media only screen and (min-width: 960px) {
+    .navbar .navbar-nav .nav-item .nav-link {
+      padding: 0 30px;
+    }
+    .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+      border-right: 2px solid rgb(221, 218, 218);
+    }
+  }
+  
+.nav-item{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: bold;
+    
+}
+.navbar-nav{
+    color: orangered
+}
+.container .col-lg-12  p{
+    padding: 3% 10%;
+    text-align: center;
+    background-color: rgb(240, 236, 236);
+}
+.col-lg-4{
+    text-align: center;
+    
+}
+.col-lg-4 h6{
+    color: rgb(3, 94, 3);
+    padding: 2% 0;
+}
+.col-lg-4 p{
+    background-color: white;
+}
+.col-lg-4 span{
+    display: block;
+
+}
+.col-lg-6{
+    text-align: center;
+}
+.col-lg-6 p{
+    background-color: white;
+}
+.col-lg-6 h4, .col-lg-6 h6, .col-lg-6 p {
+    text-align: left;
+}
+.letras_2{
+    background-color: white;
+}
+.container p{
+    background-color: white;
+    text-align: center;
+}
+h5{
+    text-align: center;
+    padding: 2% 0;
+}
+h6{
+    background-color: white;
+    text-align: center;
+    padding-top: 2%;
+}
+.equipo{
+        background-repeat: no-repeat;
+        background-position: 50%;
+        border-radius: 50%;
+    }
+.container_2{
+    padding: 40px 80px;
+    background-color: rgb(75, 74, 74);
+}
+.col-lg-3{
+    height: 210px;
+    width: 80px;
+    border: white 1px solid;
+    
+    
+}
