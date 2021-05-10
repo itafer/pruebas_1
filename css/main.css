@@ -1,25 +1,102 @@
-@media only screen and (min-width: 960px) {
+/* Barra de Navegación */
+@media only screen and (min-width: 960px) { /* Muestra las barras verticales solo en tamaños sobre 960px */
     .navbar .navbar-nav .nav-item .nav-link {
-      padding: 0 30px;
+        height: 20px;
+        padding: 0px 30px;
     }
     .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
       border-right: 2px solid rgb(221, 218, 218);
     }
   }
-  
+
 .nav-item{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
     font-weight: bold;
     
 }
-.navbar-nav{
-    color: orangered
-}
+/* Imagen semilla con información*/
 .container .col-lg-12  p{
-    padding: 3% 10%;
+    padding: 3% 22%;
     text-align: center;
     background-color: rgb(240, 236, 236);
+    color: rgb(160, 159, 159);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;   
+}
+/* Mision y Vision */
+.col-lg-6 h3{
+    padding-top: 5%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:large;
+    font-weight: bold;
+}
+.col-lg-6 p{
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: small;
+    padding: 0 19%;
+}
+.mv{
+    margin-left: 37%;
+}
+/* Fotos y fondo */
+.bloque_1{
+    position: relative;
+    
+}
+.bloque_2{
+    position: absolute;
+    display: inline-block;
+    margin: 10% 0 5% 0%;
+    padding-left: 10%;
+    left: 60%;
+    width: 30%;
+    height: 10%;
+}
+.bloque_3{
+    position: absolute;
+    display: inline-block;
+    margin: 15% 0 5% 0%;
+    text-align: center;
+    left: 57%;
+    width: 30%;
+    height: 10%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: small;
+}
+.bloque_4{
+    position: absolute;
+    display: inline-block;
+    margin: 20% 0 5% 0;
+    text-align: center;
+    width: 30%;
+    height: 20%;
+    left: 57%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+
+}
+/* Servicios */
+.servicios h3{
+    padding: 5% 0 2% 0;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:large;
+    font-weight: bold;
+}
+.servicios p{
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: small;
+    padding: 0 20% 5% 20%
 }
 .col-lg-4{
     text-align: center;
@@ -27,27 +104,93 @@
 }
 .col-lg-4 h6{
     color: rgb(3, 94, 3);
-    padding: 2% 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: medium;
+    padding: 5% 20% 2% 20%
 }
 .col-lg-4 p{
-    background-color: white;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: x-small;
+    padding: 0 25% 5% 25%
 }
 .col-lg-4 span{
     display: block;
-
 }
-.col-lg-6{
-    text-align: center;
+/* Proyectos */
+.proyectos{
+    position: absolute;
+    display: inline-block;
+    width: 40%;
 }
-.col-lg-6 p{
-    background-color: white;
+.proyectos_2{
+    position: absolute;
+    display: inline-block;
+    width: 70%;
+    padding-left: 30%;
+    color: rgb(120, 167, 10);
 }
-.col-lg-6 h4, .col-lg-6 h6, .col-lg-6 p {
+.proyectos_2 h5{
     text-align: left;
 }
-.letras_2{
-    background-color: white;
+.proyectos_2 .p{
+    text-align: left;
+    font-size: small;
+
 }
+.bloque_5{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+}
+.bloque_5 h3{
+    color: rgb(201, 204, 49);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding: 3% 0;
+}
+.bloque_6{
+    position: absolute;
+    display: inline-block;
+    padding: 10% 20%;
+    margin-left: 10%;
+}
+.bloque_7{
+    position: absolute;
+    display: inline-block;
+    padding: 30% 20%;
+    margin-left: 10%;
+}
+/* Equipo */
+.equipo{
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    margin-left: 35%;
+
+}
+/* Blog */
+.mb{
+    position: absolute;
+    display: inline-block;
+}
+.blog{
+    padding: 5%;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.col-lg-12 .container{
+    position: relative;
+    display: inline-block;
+}
+.footer{
+    background-color: rgb(223, 221, 221);
+}
+
 .container p{
     background-color: white;
     text-align: center;
@@ -61,19 +204,11 @@ h6{
     text-align: center;
     padding-top: 2%;
 }
-.equipo{
-        background-repeat: no-repeat;
-        background-position: 50%;
-        border-radius: 50%;
-    }
+.lab{
+    color: rgb(196, 196, 118);
+}
 .container_2{
     padding: 40px 80px;
     background-color: rgb(75, 74, 74);
 }
-.col-lg-3{
-    height: 210px;
-    width: 80px;
-    border: white 1px solid;
-    
-    
-}
+
